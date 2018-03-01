@@ -1,5 +1,8 @@
 import React from 'react';
+import Header from './Header';
 
 export default App = () => {
-    return (<div>MarkUp from App.js</div>);
+    return (<div>
+        <Header />
+    </div>);
 }
