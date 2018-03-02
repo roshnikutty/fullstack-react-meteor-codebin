@@ -9,7 +9,9 @@ Meteor.methods(
                 createdAt: new Date(),
                 content: '',
                 sharedWith: [],
-                ownerId: this.userId //ID of user that is currently signed in. https://docs.meteor.com/api/methods.html#DDPCommon-MethodInvocation-userId
+                ownerId: this.userId 
+                //ID of user that is currently signed in. 
+                //https://docs.meteor.com/api/methods.html#DDPCommon-MethodInvocation-userId
              })
         }
     });
