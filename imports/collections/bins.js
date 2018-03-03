@@ -13,6 +13,9 @@ Meteor.methods(
                 //ID of user that is currently signed in. 
                 //https://docs.meteor.com/api/methods.html#DDPCommon-MethodInvocation-userId
              })
+        },
+        'bins.remove': function(bin){
+            return Bins.remove(bin);
         }
     });
 
