@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './Header';
-import BinList from './bins/BinsList';
 
-export default App = () => {
-    return (<div>
-        <Header />
-        <BinList />
-    </div>);
-}
+export default () => {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+};
+
+//Can eliminate this component, and use Header directly in main.js
